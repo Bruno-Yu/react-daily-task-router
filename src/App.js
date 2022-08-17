@@ -35,6 +35,12 @@ function App() {
         </div>
         {/* Routes, Route 練習區 */}
         {/* 練習區 */}
+         <Routes>
+          <Route path="/" />
+          <Route path="/register" />
+          <Route path="/login" />
+          <Route path="/todo" />
+          </Routes>
       </HashRouter>
     </div>
   );
