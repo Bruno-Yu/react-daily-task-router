@@ -73,7 +73,7 @@ function App() {
           <Route path="/register"  element={<Register />} />
           <Route path="/login"  element={<Login />} />
           <Route path="/todo" element={<Todo />} />
-          <Route path="/post" element={<Posr />} />
+          <Route path="/post" element={<Post />} />
               <Route path=":postId" element={<PostId />} />
           </Routes>
       </HashRouter>
