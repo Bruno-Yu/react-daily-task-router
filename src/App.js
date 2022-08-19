@@ -38,7 +38,7 @@ const Post = () => {
 
 const PostId = () => {
 let params = useParams();
-  return <p> Post: {params:pastId}</p>;
+  return <p> Post: {params:postId}</p>;
 
 };
 
